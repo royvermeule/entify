@@ -9,7 +9,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 class Entify extends Command
 {
     protected static $defaultName = 'entify';
-    protected static $buildEntityParam = 'entitys';
+    protected static $buildEntityParam = 'entities';
     protected static $buildSqlParam = 'db';
     protected static $buildAllParam = 'all';
     protected static $dropParam = 'drop';
